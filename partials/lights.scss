@@ -1,6 +1,7 @@
 body {
   font-family: Century Gothic;
   text-align: center;
+  background-color: #FAFBFC;
 
   h1 {font-weight: 300;}
 
@@ -30,22 +31,22 @@ body {
     button.on {
       border: 1px solid #F8C63D;
       color: #F8C63D;
+      transition: .2s;
 
       &:hover {
         background: #F8C63D;
         color: white;
-        transition: .2s;
       }
     }
 
     button.off {
       border: 1px solid #B2C3D8;
       color: #B2C3D8;
+      transition: .2s;
 
       &:hover {
         background: #B2C3D8;
         color: white;
-        transition: .2s;
       }
     }
   }

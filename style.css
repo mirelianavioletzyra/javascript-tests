@@ -1,6 +1,7 @@
 body {
   font-family: Century Gothic;
-  text-align: center; }
+  text-align: center;
+  background-color: #FAFBFC; }
   body h1 {
     font-weight: 300; }
   body .wrap {
@@ -21,17 +22,17 @@ body {
         outline: none; }
     body .wrap button.on {
       border: 1px solid #F8C63D;
-      color: #F8C63D; }
+      color: #F8C63D;
+      transition: .2s; }
       body .wrap button.on:hover {
         background: #F8C63D;
-        color: white;
-        transition: .2s; }
+        color: white; }
     body .wrap button.off {
       border: 1px solid #B2C3D8;
-      color: #B2C3D8; }
+      color: #B2C3D8;
+      transition: .2s; }
       body .wrap button.off:hover {
         background: #B2C3D8;
-        color: white;
-        transition: .2s; }
+        color: white; }
 
 /*# sourceMappingURL=style.css.map */
