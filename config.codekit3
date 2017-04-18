@@ -15,22 +15,22 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
-	"\/Light Off.png": {
+	"\/images\/Light Off.png": {
 		"ft": 32768,
 		"iS": 1786,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/build\/Light Off.png",
+		"oAP": "\/build\/images\/Light Off.png",
 		"oF": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/Light On.png": {
+	"\/images\/Light On.png": {
 		"ft": 32768,
 		"iS": 1799,
 		"l": 1,
 		"oA": 0,
-		"oAP": "\/build\/Light On.png",
+		"oAP": "\/build\/images\/Light On.png",
 		"oF": 0,
 		"opt": 1,
 		"q": 100
