@@ -1,0 +1,52 @@
+body {
+  font-family: Century Gothic;
+  text-align: center;
+}
+
+h1 {font-weight: 300;}
+
+.wrap {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lights {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+button {
+  background: none;
+  padding: 10px 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.on {
+  border: 1px solid #F8C63D;
+  color: #F8C63D;
+}
+
+button.on:hover {
+  background: #F8C63D;
+  color: white;
+  transition: .2s;
+}
+
+button.off {
+  border: 1px solid #B2C3D8;
+  color: #B2C3D8;
+}
+
+button.off:hover {
+  background: #B2C3D8;
+  color: white;
+  transition: .2s;
+}
