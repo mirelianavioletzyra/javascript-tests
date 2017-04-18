@@ -3,16 +3,78 @@
 <head>
   <title>Lights</title>
 
+  <style type="text/css">
+  body {
+    font-family: Century Gothic;
+    text-align: center;
+  }
+
+  h1 {font-weight: 300;}
+
+  .wrap {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .lights {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  button {
+    background: none;
+    padding: 10px 20px;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  button.on {
+    border: 1px solid #F8C63D;
+    color: #F8C63D;
+  }
+
+  button.on:hover {
+    background: #F8C63D;
+    color: white;
+    transition: .2s;
+  }
+
+  button.off {
+    border: 1px solid #B2C3D8;
+    color: #B2C3D8;
+  }
+
+  button.off:hover {
+    background: #B2C3D8;
+    color: white;
+    transition: .2s;
+  }
+
+  </style>
+
 </head>
 <body>
 
-<h1>Look At My Cool Light</h1>
+<div class="wrap">
 
-<button onclick="document.getElementById('myImage').src='Light On.png'">Lights On</button>
+  <h1>Look At My Cool Light!</h1>
 
-<img id="myImage" alt="light" src="Light On.png" style="width:100px">
+  <div class="lights">
+    <button class="on" onclick="document.getElementById('myImage').src='Light On.png'">Lights On</button>
 
-<button onclick="document.getElementById('myImage').src='Light Off.png'">Lights Off</button>
+    <img id="myImage" alt="light" src="Light On.png" style="width:100px">
+
+    <button class="off" onclick="document.getElementById('myImage').src='Light Off.png'">Lights Off</button>
+  </div>
+
+</div>
 
 </body>
 </html>
