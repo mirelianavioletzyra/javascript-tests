@@ -17,17 +17,17 @@
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/favicon.ico",
-		"oF": 0
+		"oF": 1
 		},
 	"\/images\/Light Off.png": {
 		"ft": 32768,
 		"iS": 1786,
 		"l": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/images\/Light Off.png",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"q": 100
 		},
@@ -35,17 +35,17 @@
 		"ft": 32768,
 		"iS": 1799,
 		"l": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/build\/images\/Light On.png",
-		"oF": 0,
+		"oF": 1,
 		"opt": 1,
 		"q": 100
 		},
 	"\/lights.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/lights.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/partials\/lights.scss": {
 		"aP": 0,
@@ -96,9 +96,9 @@
 		},
 	"\/test.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/test.html",
-		"oF": 0
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -110,7 +110,7 @@
 	"displayValue": "javascript-tests",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-angryPicard",
-	"lastBuiltDate": 514241516
+	"lastBuiltDate": 514244326
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
